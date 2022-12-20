@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(185, 177, 177);
+}
+
+#totalbody {
+  padding: 20px;
+  width: 35%;
+  margin: auto;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background: linear-gradient(#2e3094, #4b1717);
+}
+
+#value {
+  padding: 10px 0;
+  text-align: center;
+  letter-spacing: 5px;
+}
+
+#display {
+  padding: 40px;
+  width: 80%;
+  height: 50px;
+  margin: auto;
+  justify-content: center;
+  background-color: aliceblue;
+}
+
+h2 {
+  letter-spacing: 2px;
+}
